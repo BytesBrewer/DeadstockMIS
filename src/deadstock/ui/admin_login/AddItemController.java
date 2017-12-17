@@ -63,7 +63,7 @@ public class AddItemController implements Initializable
         }
         
         JFXTextField specs = new JFXTextField();
-        //specs.setLabelFloat(true);
+        specs.setLabelFloat(true);
         specs.setPromptText("Name");
         specs.setPrefWidth(202);
         specs.setPrefHeight(31);
