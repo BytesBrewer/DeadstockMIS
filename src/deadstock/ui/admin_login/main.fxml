@@ -64,7 +64,7 @@
                               <FontAwesomeIconView glyphName="EYE" size="45" />
                            </graphic>
                         </JFXButton>
-                        <JFXButton alignment="BOTTOM_CENTER" contentDisplay="TOP" graphicTextGap="25.0" layoutX="316.0" layoutY="22.0" prefHeight="117.0" prefWidth="115.0" ripplerFill="BLACK" style="-fx-border-color: #2A2E37; -fx-background-radius: 0; -fx-border-radius: 0;" text="Edit Item">
+                        <JFXButton alignment="BOTTOM_CENTER" contentDisplay="TOP" graphicTextGap="25.0" layoutX="316.0" layoutY="22.0" onAction="#editItem" prefHeight="117.0" prefWidth="115.0" ripplerFill="BLACK" style="-fx-border-color: #2A2E37; -fx-background-radius: 0; -fx-border-radius: 0;" text="Edit Item">
                            <graphic>
                               <FontAwesomeIconView glyphName="PENCIL" size="45" />
                            </graphic>

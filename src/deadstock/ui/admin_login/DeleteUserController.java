@@ -7,7 +7,6 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import static com.mongodb.client.model.Filters.eq;
-import deadstock.ui.dialog_box.ErrorController;
 import deadstock.ui.dialog_box.SuccessfullController;
 import java.io.IOException;
 import java.net.URL;

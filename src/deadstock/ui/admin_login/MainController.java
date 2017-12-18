@@ -120,4 +120,22 @@ public class MainController implements Initializable
         }
     }
 
+    @FXML
+    private void editItem(ActionEvent event) {
+        try
+        {
+            FXMLLoader fxmlloader = new FXMLLoader(getClass().getResource("/deadstock/ui/admin_login/editItem.fxml"));
+            Parent root = (Parent)fxmlloader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Deadstock MIS");
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setScene(new Scene(root));
+            stage.show();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
 }
